@@ -190,7 +190,7 @@ function addFlag(square){
 
 
  //game over function
-    function gameOver(){
+    function gameOver(){  
         result.innerHTML = 'BOOM !! Game Over'
         isGameOver = true
 
