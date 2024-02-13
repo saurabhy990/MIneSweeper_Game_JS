@@ -3,7 +3,15 @@
 ## Overview
 
 Welcome to the Minesweeper game repository! This simple Minesweeper game is implemented using HTML, CSS, and JavaScript. The classic game allows players to uncover cells on a grid, trying to avoid hidden mines. The goal is to reveal all safe cells without triggering any bombs.
+______
 
+![image](https://github.com/saurabhy990/MIneSweeper_Game_JS/assets/65731020/ce1d386f-7dd8-4b22-b163-d7af591bbf64)
+
+![image](https://github.com/saurabhy990/MIneSweeper_Game_JS/assets/65731020/5ae8d8d6-7439-439f-92e8-624f65484124)
+
+
+
+______
 ## Hosted Link: https://saurabhy990.github.io/MIneSweeper_Game_JS/
 ## Index
 
@@ -39,14 +47,13 @@ DOM Manipulation: Interacting with HTML elements to dynamically create the game 
 
 Event Handling: Managing user interactions with the game grid, such as left-clicks to reveal cells and right-clicks to flag potential mines.
 
-## Asynchronous Programming: Using setTimeout to delay the revealing of neighboring cells when an empty cell is clicked.
+ Asynchronous Programming: Using setTimeout to delay the revealing of neighboring cells when an empty cell is clicked.
 
-## Conditional Statements and Loops: Employing loops to iterate over the game grid and conditional statements for decision-making logic.
+Conditional Statements and Loops: Employing loops to iterate over the game grid and conditional statements for decision-making logic.
 
-## Functions: Defining functions to encapsulate specific functionalities, such as handling clicks, checking for a win, and managing the game over state.
+Functions: Defining functions to encapsulate specific functionalities, such as handling clicks, checking for a win, and managing the game over state.
 
-## Contributing
+Contributing
 Feel free to contribute to the project by opening issues or creating pull requests. Your suggestions and improvements are welcome!
-
-## License
+ License
 This Minesweeper game is open-source and available under the MIT License. Feel free to use, modify, and distribute it according to the terms of the license.
