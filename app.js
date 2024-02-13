@@ -42,9 +42,10 @@ function createBoard(){
             click(square)
         })
 
-        // leftclick to add flags
-        square.addEventListener('contextmenu',function()
+        // rightclick to add flags
+        square.addEventListener('contextmenu',function(event)
         {
+            event.preventDefault()
             addFlag(square)
         })
        
@@ -99,7 +100,7 @@ function addFlag(square){
 //checking clicked numbers (valid/bombs)
  function click(square){
     console.log(square);
-    if(isGameOver || square.classList.contains('checked')|| square.classList.contains('flag'))  return
+    if(isGameOver || square.classList.contains('checked')|| square.classList.contains('flag')) return
 
     if(square.classList.contains('bomb')){
         gameOver()
@@ -184,6 +185,7 @@ function addFlag(square){
             isGameOver = true
         }
     }
+    
  }
 
 
@@ -201,6 +203,15 @@ function addFlag(square){
             }
         })
     }
+
+    let play = document.querySelector('.grid')
+    function playaudio(){
+        
+        let audio  =  new Audio("./audio/gameaudio.wav")
+       audio.play()
+       
+    }
+    play.addEventListener("click", playaudio)
 
 })
 

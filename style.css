@@ -3,23 +3,29 @@
      
 }
 body{
-    background-color: #d0d6d0;
+    background-color: #e2f18f;
+   
     overflow-y: hidden;
     overflow-x: hidden;
     
 }
 main{
-    
+    text-align: center;
      position: relative;
      left: 35%;
      top: 8%;
      
 }
  button{
-    padding: 10px 20px;
+     
+    padding: 5px 10px ;
     border: none solid  whitesmoke ;
+    border-style: none;
     border-radius: 20px;
-    background-color: whitesmoke;
+    font-weight: 700;
+    font-size: 25px;
+    color: #57da59;
+    background-color: rgb(245, 236, 141);
  }
 .grid{
     height: 400px;
@@ -61,6 +67,19 @@ div{
     box-sizing: border-box;
 }
 
+.bottom {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap:30px
+}
+
+#flags-left,#bombs-left{
+  
+    display: flex;
+     
+}
 
 .checked{
    

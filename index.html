@@ -12,19 +12,23 @@
       
       <div class="container">
          <h2 style="color: red;">💣💣MINESWEEPER💣💣</h2>
-         <button onclick="window.location.reload()">New Game</button> 
-         <div class="grid"></div>
-         <div>Flags left: <span id="flags-left"></span></div>
-         <div>Bombs left: <span id="bombs-left"></span></div>
          
+         <div class="grid"></div>
+         <div class="bottom">
+         <div style="color: green;">🚩 <span id="flags-left"></span></div>
+         <div style="color:red">💣 <span id="bombs-left"></span></div>
+         <button onclick="window.location.reload()">New Game</button> 
+         </div>
          <!-- <select name="levels" id="levels">
             <option value="5">Easy</option>
             <option value="10">Medium</option>
             <option value="20">Hard</option>
          </select> -->
-         <div id="result"></div>
          
-         
+         <div id="result" style="background-color:white; color: red;"></div>
+        
+         <!-- <audio src="./audio/gameaudio.wav"></audio> -->
+      
      </div>
    </main>
    
